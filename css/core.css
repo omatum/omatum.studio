@@ -229,7 +229,8 @@ section.int .section-head {
   position: absolute;
   top: 15px;
   z-index: 0;
-  text-align: center; }
+  text-align: center;
+  pointer-events: none; }
 
 section.int .channel-box[data-channel="twitch"] {
   background-color: #3f2e5f;

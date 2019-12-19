@@ -87,7 +87,7 @@ section.int
 
   .section-head
   {
-    &{width:100%;position:absolute;top:15px;z-index:0;text-align:center;}
+    &{width:100%;position:absolute;top:15px;z-index:0;text-align:center;pointer-events:none;}
   }
 
   .channel-box
