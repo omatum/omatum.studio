@@ -1,0 +1,40 @@
+@media only screen and(max-width:1440px)
+{
+  section.int
+  {
+    .inner-wrap{width:1024px;}
+    .section-head{top:50px;}
+
+    .col-main
+    {
+      &{}
+      .headline{font-size:36px;}
+      p{font-size:13px;line-height:20px;}
+    }
+
+    .col-supp
+    {
+      &{margin-top:62px;}
+
+      #jobs
+      {
+        &{}
+        li{font-size:13px;}
+      }
+    }
+
+    .channel-box
+    {
+      .name:after{width:240px;}
+      .name:before{right:240px;}
+
+      .info-box
+      {
+        &{font-size:13px;}
+        .text{line-height:20px;}
+      }
+    }
+
+
+  }
+}

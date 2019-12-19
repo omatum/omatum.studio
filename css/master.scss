@@ -75,19 +75,19 @@ section.int
 
   #last_hurrah_careers
   {
-    &{}
+    &{max-width:1920px;margin:0 auto;}
     polyline{opacity:.5;animation:ambient_pulse 6s linear infinite forwards;stroke-dashoffset:900;stroke-dasharray:1000 300;}
   }
 
   #last_hurrah_wwd
   {
-    &{}
+    &{max-width:1920px;margin:0 auto;}
     polyline{opacity:.5;animation:ambient_pulse 6s linear infinite reverse;stroke-dashoffset:900;stroke-dasharray:1000 300;}
   }
 
   .section-head
   {
-    &{width:100%;position:absolute;top:15px;left:0;z-index:0;}
+    &{width:100%;position:absolute;top:15px;z-index:0;text-align:center;}
   }
 
   .channel-box
@@ -188,6 +188,7 @@ section.int
       &.green .label{color:$b-qa;}
       &.yellow .label{color:$b-rs;}
       &.magenta .label{color:$b-mk;}
+      &.green .label{width:150px;margin-left:-75px;}
 
       .cir-wrap{position:relative;}
 
@@ -273,10 +274,5 @@ section.int
       }
     }
   }
-
-}
-
-#find_us
-{
 
 }

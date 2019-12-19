@@ -1,3 +1,13 @@
 @import 'reset.scss';
 @import 'animations.scss';
 @import 'master.scss';
+
+@import 'multires/res-1920-up.scss';
+@import 'multires/res-1680.scss';
+@import 'multires/res-1440.scss';
+@import 'multires/res-1370.scss';
+@import 'multires/res-1280.scss';
+@import 'multires/res-1024.scss';
+@import 'multires/res-768.scss';
+@import 'multires/res-420.scss';
+@import 'multires/res-375.scss';

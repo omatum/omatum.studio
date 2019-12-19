@@ -1,0 +1,15 @@
+@media only screen and (max-width:1200px)
+{
+  section.int
+  {
+    &{box-sizing:border-box;margin-bottom:0px;padding:75px 0px;}
+    .outer-wrap{box-sizing:border-box;position:relative;}
+    .inner-wrap{width:100%;padding:0px 5%;box-sizing:border-box;overflow:hidden;}
+
+    h2{font-size:36px;line-height:64px;}
+
+    #content-pipeline{display:none !important;height:0px;}
+
+    .section-head{display:none;}
+  }
+}
