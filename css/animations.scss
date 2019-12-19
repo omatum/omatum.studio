@@ -1,0 +1,24 @@
+@keyframes draw_in
+{
+  from {stroke-dashoffset:1500;}
+  to{stroke-dashoffset:3000;}
+}
+
+@keyframes bounce_in
+{
+  0%{transform:scale(1);opacity:0;}
+  100%{transform:scale(1);opacity:1;}
+}
+
+@keyframes pulse
+{
+  0%{stroke-dasharray:1500 1500;}
+  1%{stroke-dasharray:5 5;}
+  100%{stroke-dasharray:1500 1500;}
+}
+
+@keyframes ambient_pulse
+{
+  0%{stroke-dashoffset:1300;}
+  100%{stroke-dashoffset:2600;}
+}

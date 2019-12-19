@@ -1,0 +1,14 @@
+<svg id="last_hurrah" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 306">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #fff;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <title>section-break</title>
+  <polyline class="cls-1" points="0 0 170 166 830 166 840 166 1063 166 1128 232 1423 232 1433 232 1761.15 232 1830.824 298 1920 298"/>
+</svg>
