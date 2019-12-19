@@ -614,9 +614,36 @@
         autoplay:true
       });
 
+
       embed.addEventListener(Twitch.Embed.VIDEO_READY, () => {
         var player = embed.getPlayer();
         player.play();
+      });
+
+
+      
+
+      embed.addEventListener(Twitch.Embed.VIDEO_PLAY,()=>
+      {
+
+        var timer;
+        timer = setTimeout(function(){
+          var player = embed.getPlayer();
+
+          console.log(player)
+
+          if(player._playerState.playback=="ended")
+          {
+            console.log('ended')
+            //Switch to vod
+            //player.setVideo("https://www.twitch.tv/videos/174151260?t=02h00m32s")
+            //player.setVideo("v174151260",7232)
+            player.setVideo("v174151260",11824)
+            timer = 'udun'
+          }
+
+        },2000)
+        
       });
 
       window.setTimeout(function()
