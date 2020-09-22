@@ -235,7 +235,7 @@ section.int .section-head {
 section.int .channel-box[data-channel="twitch"] {
   background-color: #3f2e5f;
   border-bottom-color: #6441a4;
-  margin-bottom: 40px; }
+  }
 
 section.int .channel-box[data-channel="twitch"] .name {
   background-color: #6441a4;
@@ -250,7 +250,9 @@ section.int .channel-box[data-channel="twitch"] .name:before {
 
 section.int .channel-box[data-channel="youtube"] {
   background-color: #8d0d0d;
-  border-bottom-color: red; }
+  border-bottom-color: red;
+  margin-bottom: 40px; 
+}
 
 section.int .channel-box[data-channel="youtube"] .name {
   background-color: red;
